@@ -1,5 +1,7 @@
 node_modules/
 .DS_Store
+.idea
+*.esproj
 public/index.html
 public/styleguide.html
 public/styleguide/html/styleguide.html
@@ -13,4 +15,5 @@ latest-change.txt
 patternlab.json
 .sass-cache/*
 /sass-cache
+*.sassc
 source/images/Thumbs.db
