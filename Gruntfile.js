@@ -42,10 +42,10 @@ module.exports = function(grunt) {
 			patternlab: ['Gruntfile.js', './builder/lib/patternlab.js']
 		},
 		watch: {
-			// scss: { //scss can be watched if you like
-			// 	files: ['source/css/**/*.scss', 'public/styleguide/css/*.scss'],
-			// 	tasks: ['default']
-			// },
+			scss: { //scss can be watched if you like
+			 	files: ['source/css/**/*.scss', 'public/styleguide/css/*.scss'],
+			 	tasks: ['sass']
+			},
 			mustache: {
 				files: ['source/_patterns/**/*.mustache'],
 				tasks: ['default']
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 					precision: 8
 				},
 				files: {
-					'./source/css/style.css': './source/css/style.scss',
+					'./public/css/style.css': './source/css/style.scss',
 					'./public/styleguide/css/static.css': './public/styleguide/css/static.scss',
 					'./public/styleguide/css/styleguide.css': './public/styleguide/css/styleguide.scss'
 				}

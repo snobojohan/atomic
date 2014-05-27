@@ -1080,6 +1080,7 @@ td {
 }
 .block-hero .b-thumb img {
   display: block;
+  width: 100%;
 }
 @media all and (min-width: 50em) {
   .block-hero {
