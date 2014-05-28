@@ -22,8 +22,8 @@ var host = (window.location.host != "") ? window.location.host : "127.0.0.1";
 
 // handle page updates from one browser to another
 function connectNavSync() {
-
-	if ('WebSocket' in window && window.WebSocket.CLOSING === 2) {
+	/*
+	if (  && 'WebSocket' in window && window.WebSocket.CLOSING === 2  ) {
 		
 		var navSyncCopy = "Page Follow";
 		wsn = new WebSocket("ws://"+host+":"+navSyncPort+"/navsync");
@@ -79,6 +79,8 @@ function connectNavSync() {
 		}
 		
 	}
+
+	*/
 	
 }
 connectNavSync();

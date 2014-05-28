@@ -1,13 +1,19 @@
 <div class="page" id="page">
-	{{> organisms-header }}
+	{{> organisms-header-x }} 
 	<div role="main">
 		
 		{{# hero }}
 			{{> molecules-block-hero }}
 		{{/ hero}}
 
+		{{# block }}
+			{{> molecules-media-block }}
+		{{/ block}}
+
+		<hr />
+
 		<section class="section">
-			<h2 class="section-title">Avsnitt</h2>
+			{{> molecules-heading }}
 			<div class="g g-4up">
 				{{# episodes}}
 					<div class="gi">
@@ -22,7 +28,7 @@
 		<div class="l-two-col">
 			<div class="l-main">
 				<section class="section latest-posts">
-					<h2 class="section-title">Latest Posts</h2>
+					<h2 class="section-title">Relaterade artiklar</h2>
 					<ul class="post-list">
 						{{# latest-posts}}
 							<li>{{> molecules-media-block }}</li>
@@ -36,5 +42,5 @@
 				{{> organisms-recent-tweets }}
 			</div><!--end l-sidebar-->
 	</div><!--End role=main-->
-	{{> organisms-footer }}
+	{{> organisms-footer-x }}
 </div>

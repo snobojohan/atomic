@@ -1,5 +1,5 @@
 {
-	"hero" : [
+	"foohero" : [
 		{
 			"img": {
 				"landscape-16x9": {
@@ -9,6 +9,25 @@
 			},
 			"headline" : {
 				"medium" : "Kärlekskoden"
+			}
+		}
+	],
+	"block" : [
+		{	
+			"img": {
+				"square": {
+					"src": "http://www.svt.se/cachable_image/1397562471000/svts/article1973551.svt/ALTERNATES/square/karlekskoden_affisch2.jpg",
+					"alt": "kk"	
+				}
+			},
+			"headline" : {
+				"short" : "Kärlekskoden"
+			},
+			"excerpt" : {
+				"medium" : "Relationsserie där två singlar undersöker om vetenskap och ny forskning kan hjälpa dem att hitta den rätta partnern. Torsdagar klockan 21 på SVT1."
+			},
+			"svtchannel" : {
+				"channel" : "SVT Flow"
 			}
 		}
 	],
@@ -51,71 +70,29 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/sample/thumb-square-river.jpg",
+					"src": "http://www.svt.se/cachable_image/1401175364/karlekskoden/article2074589.svt/alternates/square/staffan.jpg",
 					"alt": "Post Thumbnail"	
 				}
 			},
 			"headline" : {
-				"short" : "Navigate the Allegheny River"
+				"short" : "Jag skulle kunna börja gråta när som helst"
 			},
-			"exerpt" : {
-				"medium" : "The Allegheny River is a principal tributary of the Ohio River; it is located in the Eastern United States. The Allegheny River joins with the Monongahela River to form the Ohio River at the Point of Point State Park in Downtown Pittsburgh, Pennsylvania."
+			"excerpt" : {
+				"medium" : "Ytterligare två personer har fått lämna programmet och kampen om Staffan och Greta hårdnar ytterligare."
 			}
 		},
 		{
 			"img": {
 				"square": {
-					"src": "../../images/sample/thumb-square-ivy.jpg",
-					"alt": "Ivy"	
+					"src": "http://www.svt.se/cachable_image/1400488250/karlekskoden/article2056395.svt/alternates/square/staffan-masssage.jpg",
+					"alt": "Post Thumbnail"	
 				}
 			},
 			"headline" : {
-				"short" : "How to detect and avoid poison ivy"
+				"short" : "Staffan får en brutal men trevlig massage"
 			},
-			"exerpt" : {
-				"medium" : "Toxicodendron radicans, commonly known as poison ivy is a poisonous North American plant that is well known for its production of urushiol"
-			}
-		},
-		{
-			"img": {
-				"square": {
-					"src": "../../images/sample/thumb-square-yosemite.jpg",
-					"alt": "Yosemite"	
-				}
-			},
-			"headline" : {
-				"short" : "Top 10 hiking mountains"
-			},
-			"exerpt" : {
-				"medium" : "Yosemite National Park is a United States National Park spanning eastern portions of Tuolumne, Mariposa and Madera counties in the central eastern portion of the U.S. state of California."
-			}
-		},
-		{
-			"img": {
-				"square": {
-					"src": "../../images/sample/thumb-square-fire.jpg",
-					"alt": "Fire"	
-				}
-			},
-			"headline" : {
-				"short" : "How to build a campfire"
-			},
-			"exerpt" : {
-				"medium" : "A campfire is a fire lit at a campsite, to serve the following functions: light, warmth, a beacon, an insect and/or apex predator deterrent, to cook, and for a psychological sense of security. "
-			}
-		},
-		{
-			"img": {
-				"square": {
-					"src": "../../images/sample/thumb-square-gear.jpg",
-					"alt": "Camping Gear"	
-				}
-			},
-			"headline" : {
-				"short" : "Pick the right camping gear"
-			},
-			"exerpt" : {
-				"medium" : "The equipment used in camping varies with the particular type of camping. For instance, in survival camping the equipment consists of small items which have the purpose of helping the camper in providing food, heat and safety."
+			"excerpt" : {
+				"medium" : "Nu har det blivit dags för Staffan och Greta att komma sina kandidater nära rent fysiskt. Kärlekskoden ska bli betydligt intimare."
 			}
 		}
 	],

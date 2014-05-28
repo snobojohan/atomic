@@ -8,6 +8,10 @@ img, video, object {
 	height: auto;
 }
 
+.mh1em {
+	max-height: 1em;
+}
+
 iframe {
 	margin-bottom: $space;
 }

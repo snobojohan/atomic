@@ -13,9 +13,13 @@ var annotationsViewer = {
 	breakpoint:     650,
 	
 	onReady: function() {
+
+		console.log("annotationsViewer onReady");
 		
 		$('body').addClass('comments-ready');
 		$('#sg-t-annotations').click(function(e) {
+
+			console.log("CLICKED");
 			
 			e.preventDefault();
 			
@@ -119,8 +123,9 @@ var annotationsViewer = {
 	}
 	
 }
-
+// HERE
 $(document).ready(function() { annotationsViewer.onReady(); });
+
 window.addEventListener("message", annotationsViewer.receiveIframeMessage, false);
 
 // make sure if a new pattern or view-all is loaded that comments are turned on as appropriate

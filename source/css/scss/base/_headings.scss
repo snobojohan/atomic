@@ -5,7 +5,15 @@ h1, .alpha   {
 }
 
 h2, .beta    { 
+	
 	line-height: 1.2;
+
+	.hmeta {
+		font-weight: 200;
+		font-size: $font-size-sm;
+		color: $gray-med;
+	}
+
 }
 
 h3, .gamma   { 
@@ -22,6 +30,14 @@ h5, .epsilon {
 
 h6, .zeta    { 
 	
+}
+
+.section-title {
+	font-weight: 400;	
+}
+
+.headline {
+	// font-size: $font-size-slightly-larger;
 }
 
 /* Subheadings */
